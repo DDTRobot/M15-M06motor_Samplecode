@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"m1502a_samplecode\startup_stm32f103xb.o"
+"m1502a_samplecode\main.o"
+"m1502a_samplecode\gpio.o"
+"m1502a_samplecode\can.o"
+"m1502a_samplecode\i2c.o"
+"m1502a_samplecode\stm32f1xx_it.o"
+"m1502a_samplecode\stm32f1xx_hal_msp.o"
+"m1502a_samplecode\stm32f1xx_hal_gpio_ex.o"
+"m1502a_samplecode\stm32f1xx_hal_can.o"
+"m1502a_samplecode\stm32f1xx_hal.o"
+"m1502a_samplecode\stm32f1xx_hal_rcc.o"
+"m1502a_samplecode\stm32f1xx_hal_rcc_ex.o"
+"m1502a_samplecode\stm32f1xx_hal_gpio.o"
+"m1502a_samplecode\stm32f1xx_hal_dma.o"
+"m1502a_samplecode\stm32f1xx_hal_cortex.o"
+"m1502a_samplecode\stm32f1xx_hal_pwr.o"
+"m1502a_samplecode\stm32f1xx_hal_flash.o"
+"m1502a_samplecode\stm32f1xx_hal_flash_ex.o"
+"m1502a_samplecode\stm32f1xx_hal_exti.o"
+"m1502a_samplecode\stm32f1xx_hal_i2c.o"
+"m1502a_samplecode\stm32f1xx_hal_tim.o"
+"m1502a_samplecode\stm32f1xx_hal_tim_ex.o"
+"m1502a_samplecode\system_stm32f1xx.o"
+--strict --scatter "M1502A_SampleCode\M1502A_SampleCode.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "M1502A_SampleCode.map" -o M1502A_SampleCode\M1502A_SampleCode.axf

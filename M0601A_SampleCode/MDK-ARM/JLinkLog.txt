@@ -1,0 +1,100 @@
+T2BEC 000:168.552   SEGGER J-Link V7.22b Log File
+T2BEC 000:168.671   DLL Compiled: Jun 17 2021 17:22:49
+T2BEC 000:168.676   Logging started @ 2021-12-13 01:40
+T2BEC 000:168.681 - 168.683ms
+T2BEC 000:168.691 JLINK_SetWarnOutHandler(...)
+T2BEC 000:168.696 - 0.008ms
+T2BEC 000:168.701 JLINK_OpenEx(...)
+T2BEC 000:170.679   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T2BEC 000:171.016   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T2BEC 000:171.168   Decompressing FW timestamp took 119 us
+T2BEC 000:176.831   Hardware: V9.60
+T2BEC 000:176.845   S/N: 59607823
+T2BEC 000:176.857   OEM: SEGGER
+T2BEC 000:176.863   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T2BEC 000:180.126   EMU: Cleaned up zombie connection 0. PID: 0x06F0 (1776)
+T2BEC 000:180.841   TELNET listener socket opened on port 19021
+T2BEC 000:180.988   WEBSRV Starting webserver
+T2BEC 000:181.106   WEBSRV Webserver running on local port 19080
+T2BEC 000:181.114 - 12.415ms returns "O.K."
+T2BEC 000:181.128 JLINK_GetEmuCaps()
+T2BEC 000:181.133 - 0.007ms returns 0xB9FF7BBF
+T2BEC 000:181.139 JLINK_TIF_GetAvailable(...)
+T2BEC 000:181.297 - 0.160ms
+T2BEC 000:181.305 JLINK_SetErrorOutHandler(...)
+T2BEC 000:181.309 - 0.006ms
+T2BEC 000:181.333 JLINK_ExecCommand("ProjectFile = "D:\SampleCode\M0601A_SampleCode\MDK-ARM\JLinkSettings.ini"", ...). 
+T2BEC 000:189.984 - 8.663ms returns 0x00
+T2BEC 000:190.012 JLINK_ExecCommand("Device = STM32F103C8", ...). 
+T2BEC 000:190.246   Device "STM32F103C8" selected.
+T2BEC 000:190.594 - 0.581ms returns 0x00
+T2BEC 000:190.610 JLINK_GetHardwareVersion()
+T2BEC 000:190.615 - 0.006ms returns 96000
+T2BEC 000:190.620 JLINK_GetDLLVersion()
+T2BEC 000:190.625 - 0.006ms returns 72202
+T2BEC 000:190.630 JLINK_GetOEMString(...)
+T2BEC 000:190.635 JLINK_GetFirmwareString(...)
+T2BEC 000:190.642 - 0.009ms
+T2BEC 000:190.649 JLINK_GetDLLVersion()
+T2BEC 000:190.653 - 0.006ms returns 72202
+T2BEC 000:190.658 JLINK_GetCompileDateTime()
+T2BEC 000:190.663 - 0.006ms
+T2BEC 000:190.670 JLINK_GetFirmwareString(...)
+T2BEC 000:190.674 - 0.006ms
+T2BEC 000:190.679 JLINK_GetHardwareVersion()
+T2BEC 000:190.683 - 0.006ms returns 96000
+T2BEC 000:190.689 JLINK_GetSN()
+T2BEC 000:190.693 - 0.006ms returns 59607823
+T2BEC 000:190.699 JLINK_GetOEMString(...)
+T2BEC 000:190.711 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T2BEC 000:191.340 - 0.634ms returns 0x00
+T2BEC 000:191.350 JLINK_HasError()
+T2BEC 000:191.367 JLINK_SetSpeed(5000)
+T2BEC 000:191.462 - 0.099ms
+T2BEC 000:191.670 JLINK_HasError()
+T2BEC 000:191.679 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T2BEC 000:191.683 - 0.006ms returns JLINKARM_RESET_TYPE_NORMAL
+T2BEC 000:191.689 JLINK_Reset()
+T2BEC 000:191.883   InitTarget() start
+T2BEC 000:191.892    J-Link Script File: Executing InitTarget()
+T2BEC 000:293.887   Can not attach to CPU. Trying connect under reset.
+T2BEC 000:446.023   Connecting to CPU via connect under reset failed.
+T2BEC 000:496.406   InitTarget() end
+T2BEC 000:557.708   InitTarget() start
+T2BEC 000:557.729    J-Link Script File: Executing InitTarget()
+T2BEC 000:658.815   Can not attach to CPU. Trying connect under reset.
+T2BEC 000:810.872   Connecting to CPU via connect under reset failed.
+T2BEC 000:861.284   InitTarget() end
+T2BEC 000:861.358 - 669.671ms
+T2BEC 000:861.369 JLINK_GetId()
+T2BEC 000:861.553   InitTarget() start
+T2BEC 000:861.565    J-Link Script File: Executing InitTarget()
+T2BEC 000:963.011   Can not attach to CPU. Trying connect under reset.
+T2BEC 001:115.015   Connecting to CPU via connect under reset failed.
+T2BEC 001:165.295   InitTarget() end
+T2BEC 001:226.964   InitTarget() start
+T2BEC 001:226.982    J-Link Script File: Executing InitTarget()
+T2BEC 001:328.793   Can not attach to CPU. Trying connect under reset.
+T2BEC 001:480.993   Connecting to CPU via connect under reset failed.
+T2BEC 001:531.403   InitTarget() end
+T2BEC 001:531.474 - 670.117ms returns 0x00000000
+T2BEC 001:531.519 JLINK_GetId()
+T2BEC 001:531.825   InitTarget() start
+T2BEC 001:531.881    J-Link Script File: Executing InitTarget()
+T2BEC 001:634.006   Can not attach to CPU. Trying connect under reset.
+T2BEC 001:786.917   Connecting to CPU via connect under reset failed.
+T2BEC 001:837.872   InitTarget() end
+T2BEC 001:898.666   InitTarget() start
+T2BEC 001:898.685    J-Link Script File: Executing InitTarget()
+T2BEC 001:999.962   Can not attach to CPU. Trying connect under reset.
+T2BEC 002:151.809   Connecting to CPU via connect under reset failed.
+T2BEC 002:202.005   InitTarget() end
+T2BEC 002:202.075 - 670.568ms returns 0x00000000
+T2BEC 002:209.731 JLINK_GetFirmwareString(...)
+T2BEC 002:209.748 - 0.019ms
+T21E0 034:358.362   
+  ***** Error: Connection to emulator lost!
+T2BEC 153:308.443 JLINK_Close()
+T2BEC 153:321.641 - 13.217ms
+T2BEC 153:321.664   
+T2BEC 153:321.669   Closed
