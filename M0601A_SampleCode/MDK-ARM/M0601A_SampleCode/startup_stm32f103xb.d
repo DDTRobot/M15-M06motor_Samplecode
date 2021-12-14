@@ -1,1 +1,0 @@
-m0601a_samplecode\startup_stm32f103xb.o: startup_stm32f103xb.s
