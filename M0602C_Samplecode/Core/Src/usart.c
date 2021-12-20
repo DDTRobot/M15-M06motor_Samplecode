@@ -134,7 +134,7 @@ void Control_Motor(uint16_t Speed,uint8_t ID,uint8_t Acce,uint8_t Brake_P,Receiv
 	Tx[0]=ID;
 	Tx[1]=0x64;
 	Tx[2]=Speed>>8;
-	Tx[3]=Speed&0x00FF;
+	Tx[3]=Speed&0x00ff;
 	Tx[4]=0;
 	Tx[5]=0;
 	Tx[6]=Acce;
@@ -143,7 +143,7 @@ void Control_Motor(uint16_t Speed,uint8_t ID,uint8_t Acce,uint8_t Brake_P,Receiv
 	Tx[9]=CRC8_Table(Tx,9);
 	Send_Motor();
 	
-	HAL_Delay(10);
+	HAL_Delay(1);
 	Receiver->BMode=Rx[1];
 	Receiver->ECurru=(Rx[2]<<8)+Rx[3];
 	Receiver->BSpeed=(Rx[4]<<8)+Rx[5];
@@ -238,7 +238,7 @@ void Check_Motor(Receiver*Receiver)
 	Tx[6]=0;
 	Tx[7]=0;
 	Tx[8]=0;
-	Tx[9]=CRC8_Table(Tx,8);
+	Tx[9]=CRC8_Table(Tx,9);
 	Send_Motor();
 	
 	HAL_Delay(10);

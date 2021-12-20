@@ -118,7 +118,7 @@ int main(void)
 	uint8_t Acce=0;//Acceleration of motor 
 	uint8_t Brake_P=0;//Brake position of motor 
 	uint8_t ID=1;//ID of Motor
-	uint8_t Mode=0;//Mode of motor
+//	uint8_t Mode=0;//Mode of motor
 	Receiver Receiv;
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */

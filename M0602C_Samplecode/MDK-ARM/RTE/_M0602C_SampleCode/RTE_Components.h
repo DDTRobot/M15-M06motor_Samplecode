@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'M0601A_SampleCode' 
- * Target:  'M0601A_SampleCode' 
+ * Project: 'M0602C_SampleCode' 
+ * Target:  'M0602C_SampleCode' 
  */
 
 #ifndef RTE_COMPONENTS_H
